@@ -26,4 +26,11 @@ class SessionsController < ApplicationController
     redirect_to root_url
   end
   
+  def sample_login
+    params[:session] = {name:  "Haseeb Qureshi",
+                        email: "haseeb@haseebq.com",
+                        password:              "foobar",
+                        password_confirmation: "foobar"}
+    create
+  end
 end
