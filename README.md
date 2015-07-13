@@ -5,5 +5,4 @@ This is the sample application for the
 Learn Web Development with Rails*](http://www.railstutorial.org/)
 by [Michael Hartl](http://www.michaelhartl.com/).
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+The live deploy can be found [here](http://twttrclone.herokuapp.com/).
